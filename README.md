@@ -1,6 +1,0 @@
-# MyWorkflow
-
-Workflow description 
-
-
-..
