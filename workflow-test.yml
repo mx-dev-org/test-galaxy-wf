@@ -1,0 +1,8 @@
+- doc: Workflow tests
+  job:
+    input_file:
+      class: File
+      location: 'test-data/input_file.txt'    
+  outputs:
+    output_file:
+      file: test-data/output.txt

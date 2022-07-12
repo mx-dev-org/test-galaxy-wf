@@ -1,0 +1,61 @@
+{
+    "a_galaxy_workflow": "true",
+    "annotation": "Example of Galaxy workflow",
+    "format-version": "0.1",
+    "name": "Workflow",
+    "steps": {
+        "0": {
+            "annotation": "Append a line to a given text file",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/add_line_to_file/add_line_to_file/0.1.0",
+            "errors": null,
+            "id": 0,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "runtime parameter for tool Add line to file",
+                    "name": "infile"
+                }
+            ],
+            "label": "input_file",
+            "name": "Add line to file",
+            "outputs": [
+                {
+                    "name": "outfile",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "bottom": 401.5,
+                "height": 95,
+                "left": 662,
+                "right": 862,
+                "top": 306.5,
+                "width": 200,
+                "x": 662,
+                "y": 306.5
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/add_line_to_file/add_line_to_file/0.1.0",
+            "tool_shed_repository": {
+                "changeset_revision": "8e251055b1a9",
+                "name": "add_line_to_file",
+                "owner": "bgruening",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"infile\": {\"__class__\": \"RuntimeValue\"}, \"options\": \"footer\", \"text_input\": \"workflow owner\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "0.1.0",
+            "type": "tool",
+            "uuid": "f959f4fd-789a-4312-b787-5d3917c16e03",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "outfile",
+                    "uuid": "e5bd088e-c079-41b8-8205-4ba4b3906667"
+                }
+            ]
+        }
+    },
+    "tags": [],
+    "uuid": "7c6b39c6-201f-4ab6-829c-67780a511c36",
+    "version": 1
+}
