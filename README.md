@@ -3,7 +3,6 @@
 [![Tests](https://github.com/kikkomep/test-galaxy-wf/actions/workflows/wftest.yml/badge.svg?branch=master)](https://github.com/kikkomep/test-galaxy-wf/actions/workflows/wftest.yml?query=branch%3Amaster)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
 Workflow description
 
 ## Tests
